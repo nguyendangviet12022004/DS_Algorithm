@@ -13,6 +13,6 @@ int main()
         for(int j = i+1; j <= n ;j ++) combinaton[i][j] = combinaton[i-1][j-1] + combinaton[i][j-1];
 
     printf("%llu",combinaton[k][n]);
-
+// This Program Use Dynamic Programing
 }
 
